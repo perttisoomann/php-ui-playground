@@ -1,0 +1,1 @@
+Render all content from UIContent component: <?= $content ?>
