@@ -2,7 +2,7 @@
 
 $startTime = hrtime(true);
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 error_reporting(E_ALL);
 
@@ -18,7 +18,7 @@ $canvas->addComponent(
 );
 
 $renderer = new UIPHPRenderer();
-$renderer->setTemplatePath(__DIR__ . '/application/');
+$renderer->setTemplatePath(__DIR__ . '/../application/');
 
 // $renderer->getResourceLoader()->ignoreComponent(UIAppCanvas::class, UIJsResource::class, UICssResource::class);
 
