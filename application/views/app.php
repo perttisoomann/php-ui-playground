@@ -11,11 +11,11 @@
     <h1>PHP UI v0.1</h1>
     <table border="1">
         <tr>
-            <td><?= $menu ?></td>
+            <td><?= $mainmenu ?></td>
             <td><?= $content ?></td>
         </tr>
     </table>
-    <br>
+    <?= $footermenu ?>
     <?= $debug ?>
 </div>
 <?= $resourceLoader->render(\Application\Resources\ResourceLocation::BODY->value) ?>

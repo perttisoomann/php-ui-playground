@@ -26,7 +26,8 @@ class AppCanvas extends UIComponent
     public function getVariables(): array
     {
         return [
-            'menu' => $this->getComponents()->filter(MyMenu::class),
+            'mainmenu' => $this->getComponents()->filter(MainMenu::class),
+            'footermenu' => $this->getComponents()->filter(FooterMenu::class),
             'content' => $this->getComponents()->filter(MyContent::class),
             'debug' => $this->getComponents()->filter(UIDebug::class),
             'resourceLoader' => $this->renderer->getResourceLoader(),
