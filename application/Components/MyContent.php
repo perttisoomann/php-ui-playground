@@ -1,7 +1,9 @@
 <?php
 
-namespace Application\MyComponents;
+namespace Application\Components;
 
+use Application\Base\MyImage;
+use Application\Resources\ResourceLocation;
 use PHPUI\Core\UIComponent;
 use PHPUI\Resources\UICssResource;
 

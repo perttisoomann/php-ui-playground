@@ -1,6 +1,10 @@
 <?php
 
-namespace Application\MyComponents;
+namespace Application\Components;
+
+use Application\Base\MyAvatar;
+use Application\Base\MyTable;
+use Application\Base\MyTableColumn;
 
 class MyUserDataTable extends MyTable
 {

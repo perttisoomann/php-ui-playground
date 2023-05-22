@@ -1,10 +1,12 @@
 <?php
 
-namespace Application\MyComponents;
+namespace Application\Components;
 
+use Application\Base\MyMenu;
+use Application\Resources\ResourceLocation;
+use PHPUI\Components\UIDebug;
 use PHPUI\Core\UIComponent;
 use PHPUI\Resources\UICssResource;
-use PHPUI\Components\UIDebug;
 
 class AppCanvas extends UIComponent
 {

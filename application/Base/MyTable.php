@@ -1,7 +1,10 @@
 <?php
 
-namespace Application\MyComponents;
+namespace Application\Base;
 
+use Application\Resources\InlineCssResource;
+use Application\Resources\InlineJsResource;
+use Application\Resources\ResourceLocation;
 use PHPUI\Core\UIComponent;
 
 class MyTable extends UIComponent

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PHP UI v0.1</title>
-    <?= $resourceLoader->render(Application\MyComponents\ResourceLocation::HEAD->value) ?>
+    <?= $resourceLoader->render(\Application\Resources\ResourceLocation::HEAD->value) ?>
 </head>
 <body>
 <div class="container">
@@ -18,6 +18,6 @@
     <br>
     <?= $debug ?>
 </div>
-<?= $resourceLoader->render(Application\MyComponents\ResourceLocation::BODY->value) ?>
+<?= $resourceLoader->render(\Application\Resources\ResourceLocation::BODY->value) ?>
 </body>
 </html>

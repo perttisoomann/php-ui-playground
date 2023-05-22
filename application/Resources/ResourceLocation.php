@@ -1,6 +1,6 @@
 <?php
 
-namespace Application\MyComponents;
+namespace Application\Resources;
 
 enum ResourceLocation: string
 {

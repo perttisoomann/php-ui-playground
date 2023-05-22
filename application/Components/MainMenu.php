@@ -1,6 +1,9 @@
 <?php
 
-namespace Application\MyComponents;
+namespace Application\Components;
+
+use Application\Base\MyMenu;
+use Application\Base\MyMenuOption;
 
 class MainMenu extends MyMenu
 {

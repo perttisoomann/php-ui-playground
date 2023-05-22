@@ -6,7 +6,7 @@ require '../vendor/autoload.php';
 
 error_reporting(E_ALL);
 
-use Application\MyComponents\{AppCanvas, MyContent, MainMenu};
+use Application\Components\{AppCanvas, MyContent, MainMenu};
 use PHPUI\Components\UIDebug;
 use PHPUI\Renderers\UIPHPRenderer;
 
